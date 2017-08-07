@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_tab_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_help_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment_help" />
+
+        <TextView
+            android:id="@+id/fragment_feedback_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment_feedback" />
+
+        <TextView
+            android:id="@+id/fragment_draw_color_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_color" />
+
+        <TextView
+            android:id="@+id/fragment_draw_circle_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_circle" />
+
+        <TextView
+            android:id="@+id/fragment_draw_rect_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_rect" />
+
+        <TextView
+            android:id="@+id/fragment_draw_point_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_point" />
+
+        <TextView
+            android:id="@+id/fragment_draw_oval_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_oval" />
+
+        <TextView
+            android:id="@+id/fragment_draw_line_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_line" />
+
+        <TextView
+            android:id="@+id/fragment_draw_round_rect_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_round_rect" />
+
+        <TextView
+            android:id="@+id/fragment_draw_arc_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_arc" />
+
+        <TextView
+            android:id="@+id/fragment_draw_path_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_path" />
+
+        <TextView
+            android:id="@+id/fragment_draw_histogram_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_histogram" />
+
+        <TextView
+            android:id="@+id/fragment_draw_pie_chart_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_draw_pie_chart" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></android.support.v4.view.ViewPager>
+</LinearLayout>
